@@ -6569,7 +6569,7 @@ div.page-header p.subHeading {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighterOrange', endColorstr='$darkOrange',GradientType=1 );
   /* IE6-8 fallback on horizontal gradient */ }
 
-.jobs #headerCall, .contact #headerCall, .blog #headerCall, .portfolio #headerCall, .search #headerCall, .home #headerCall {
+.jobs #headerCall, .contact #headerCall, .blog #headerCall, .portfolio #headerCall, .search #headerCall {
   margin-top: 75px; }
 
 #headerCall div.container, #footerCall div.container {
@@ -7229,6 +7229,9 @@ footer.content-info div.container section.widget img:hover {
   -khtml-opacity: 1.0;
   opacity: 1.0; }
 
+footer.content-info div.container .textwidget img#footerLogo {
+  opacity: 1; }
+
 footer.content-info div.container section.widget:last-child a {
   padding-left: 8px; }
 
@@ -7525,8 +7528,8 @@ div.hpLatestLabs.box {
 div.hpBottomCall {
   position: relative;
   height: 705px;
-  margin: 165px -90px -60px -90px;
-  background: white url("../../../../uploads/2013/01/smbexchange.jpg") no-repeat center center;
+  margin: 105px -90px -60px -90px;
+  background: white url("../images/smbexchange.jpg") no-repeat center center;
   background-size: 100%; }
 
 div.hpBottomCall.landing-call {
